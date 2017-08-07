@@ -1,0 +1,19 @@
+
+# Directories to ignore when uploading code to floyd
+# Do not add a trailing slash for directories
+
+.git
+.eggs
+eggs
+lib
+lib64
+parts
+sdist
+var
+
+cs231n/datasets/coco_captioning
+cs231n/datasets/pretrained_model.h5
+cs231n/datasets/tiny-imagenet-100-A
+.ipynb_checkpoints
+cs231n/*.pyc
+cs231n/build
